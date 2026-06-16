@@ -1,0 +1,71 @@
+{
+  "name": "Sebin M Baby",
+  "title": "Cloud & Linux Engineer",
+  "location": "Ernakulam, Kerala, India",
+  "email": "sebinmbaby@gmail.com",
+  "phone": "+91 9567663066",
+  "resume": "assets/Sebin_M_Baby_Resume.pdf",
+  "summary": "Cloud & Linux Engineer with 3+ years of experience in AWS infrastructure, Linux administration, CI/CD, automation, monitoring, and production server support.",
+  "about": "I work on reliable, secure, and scalable cloud infrastructure. My experience includes AWS services, Linux server administration, CI/CD pipelines, Bash scripting, monitoring, incident handling, hosting support, and infrastructure automation.",
+  "contactText": "Open to Cloud, Linux, DevOps, and Infrastructure Engineer opportunities.",
+  "links": {
+    "github": "https://github.com/sebinmbaby",
+    "linkedin": "https://linkedin.com/in/sebin-m-baby-529033124"
+  },
+  "experience": [
+    {
+      "company": "Futureblox Technologies Pvt Ltd",
+      "role": "Analyst - Cloud & Linux",
+      "period": "July 2022 - Present",
+      "description": "Managed AWS-based Linux production infrastructure, CI/CD pipelines, monitoring, alerting, Bash automation, system hardening, incident response, and performance optimization."
+    },
+    {
+      "company": "Scsoft Technologies Private Ltd",
+      "role": "Linux System Engineer",
+      "period": "August 2021 - June 2022",
+      "description": "Deployed and managed Linux cloud servers, WHM/cPanel hosting environments, CloudLinux servers, DNS, HTTP, FTP, SSH, TCP/IP, YUM/RPM, fdisk, and LVM."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Enterprise Cloud Infrastructure",
+      "description": "AWS-based infrastructure for enterprise web applications using EC2, EBS, S3, VPC, IAM, Route 53, ELB, and CloudWatch."
+    },
+    {
+      "title": "CI/CD Pipeline Automation",
+      "description": "Built and maintained deployment pipelines using Jenkins, AWS tools, Git, and Bash scripting to improve release reliability."
+    },
+    {
+      "title": "Linux Hosting & Security",
+      "description": "Managed Apache, Nginx, PHP, MySQL, WHM/cPanel, SSL certificates, SSH hardening, firewalls, and server performance tuning."
+    }
+  ],
+  "skills": [
+    "AWS EC2",
+    "EBS",
+    "S3",
+    "VPC",
+    "IAM",
+    "Route 53",
+    "ELB",
+    "CloudWatch",
+    "Linux",
+    "Ubuntu",
+    "RHEL",
+    "CloudLinux",
+    "Bash",
+    "Jenkins",
+    "Git",
+    "Terraform",
+    "Ansible",
+    "Apache",
+    "Nginx",
+    "MySQL",
+    "WHM/cPanel",
+    "DNS",
+    "SSL",
+    "Datadog",
+    "New Relic",
+    "Jira"
+  ]
+}

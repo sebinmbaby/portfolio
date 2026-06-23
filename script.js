@@ -31,20 +31,18 @@ fetch("portfolio.json")
     </div>
   `).join("");
 
-document.getElementById("projectList").innerHTML = data.projects.map(project => `
-  <div class="card">
-    <h3>${project.title}</h3>
-    <p>${project.description}</p>
+  document.getElementById("projectList").innerHTML = data.projects.map(project => `
+    <div class="card">
+      <h3>${project.title}</h3>
+      <p>${project.description}</p>
 
-    ${project.github ? `
-      <a href="${project.github}"
-         target="_blank"
-         style="display:inline-block;margin-top:10px;color:#38bdf8;">
-         View on GitHub →
-      </a>
-    ` : ""}
-  </div>
-`).join("");
+      ${project.github ? `
+        <a href="${project.github}" target="_blank" style="display:inline-block;margin-top:10px;color:#38bdf8;">
+          View on GitHub →
+        </a>
+      ` : ""}
+    </div>
+  `).join("");
 
   document.getElementById("skillList").innerHTML = data.skills.map(skill => `
     <span class="skill">${skill}</span>

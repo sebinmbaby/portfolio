@@ -39,6 +39,19 @@
       "title": "Linux Hosting & Security",
       "description": "Managed Apache, Nginx, PHP, MySQL, WHM/cPanel, SSL certificates, SSH hardening, firewalls, and server performance tuning."
     }
+    {
+  "title": "Server Monthly Security Patches",
+  "description": "A Bash automation tool that checks available security patches on Debian/Ubuntu servers, generates CSV reports, and automatically emails the results to administrators. Helps streamline monthly security compliance and patch management.",
+  "technologies": [
+    "Bash",
+    "Linux",
+    "Ubuntu",
+    "Debian",
+    "CSV Reporting",
+    "Email Automation"
+  ],
+  "github": "https://github.com/sebinmbaby/Security-Patches"
+}
   ],
   "skills": [
     "AWS EC2",

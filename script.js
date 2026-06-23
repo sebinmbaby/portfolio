@@ -24,27 +24,30 @@ fetch("portfolio.json")
   document.getElementById("contactResumeButton").href = data.resume;
 
   document.getElementById("experienceList").innerHTML = data.experience.map(item => `
-    <div class="card"><p class="meta">${item.company} | ${item.period}</p><h3>${item.role}</h3><p>${item.description}</p></div>
+    <div class="card">
+      <p class="meta">${item.company} | ${item.period}</p>
+      <h3>${item.role}</h3>
+      <p>${item.description}</p>
+    </div>
   `).join("");
 
   document.getElementById("projectList").innerHTML = data.projects.map(project => `
-    <div class="card"><h3>${project.title}</h3><p>${project.description}</p></div>
-  `).join("");
-
-  document.getElementById("skillList").innerHTML = data.skills.map(skill => `<span class="skill">${skill}</span>`).join("");
-})
-.catch(error => console.error("Error loading portfolio.json:", error));
-document.getElementById("projectList").innerHTML = data.projects
-  .map(project => `
     <div class="card">
       <h3>${project.title}</h3>
       <p>${project.description}</p>
 
-      <a href="${project.github}"
-         target="_blank"
-         style="display:inline-block;margin-top:10px;color:#38bdf8;">
-         View on GitHub →
-      </a>
+      ${project.github ? `
+        <a href="${project.github}"
+           target="_blank"
+           style="display:inline-block;margin-top:10px;color:#38bdf8;">
+           View on GitHub →
+        </a>
+      ` : ""}
     </div>
-  `)
-  .join("");
+  `).join("");
+
+  document.getElementById("skillList").innerHTML = data.skills.map(skill => `
+    <span class="skill">${skill}</span>
+  `).join("");
+})
+.catch(error => console.error("Error loading portfolio.json:", error));
